@@ -1,0 +1,23 @@
+{
+  "name": "my_package",
+  "version": "1.0.0",
+  "description": "Sport Project.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test speccified\\\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephRadebe/AngularProjects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JosephRadebe/AngularProjects/issues"
+  },
+  "homepage": "https://github.com/JosephRadebe/AngularProjects#readme"
+}

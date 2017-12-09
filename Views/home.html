@@ -1,0 +1,578 @@
+<header id="home" class="header">
+    <div class="main_menu_bg navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="nave_menu">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                                    aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand">
+                                    <div class="logo">
+                                        <img src="images/logo.jpeg" ng-href="" ng-click="home()" alt="" />
+
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active">
+                                        <a href="" ng-click="scrollTo('home')">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="" ng-click="scrollTo('abouts')">ABOUT</a>
+                                    </li>
+                                    <li>
+                                        <a href="" ng-click="scrollTo('featured')">SERVICES</a>
+                                        <!-- Eg. Plumbing, building, tilling etc. -->
+                                    </li>
+                                    <!-- <li>
+                                        <a href="" ng-click="scrollTo('testimonial')" ng-hide="">Portfolio</a>
+                                        sample of the work you do
+                                    </li> -->
+                                    <li>
+                                        <a href="" ng-click="scrollTo('team')">Team</a>
+                                        <!-- management -->
+                                    </li>
+                                    <li>
+                                        <a href="" ng-click="scrollTo('contact')">Contact</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </div>
+            <!--End of row -->
+
+        </div>
+        <!--End of container -->
+
+    </div>
+</header>
+<!--End of header -->
+
+<section id="banner" class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="main_banner_area text-center">
+                <div class="col-md-12 col-sm-12">
+                    <div class="single_banner_text wow zoomIn" data-wow-duration="4s">
+                        <h1>Stay Solid Construction</h1>
+                        <div class="separetor"></div>
+                        <h5>BUILDING A BETTER, SOLIDIFIED
+                            <br> FUTURE THROUGH EXCELLENCE </h5>
+                        <br>
+                        <br>
+                        <!-- Add font awesome icons -->
+                        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                        <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+                        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+
+
+                <div class="scrolldown">
+                    <a ng-click="scrollTo('abouts')" class="scroll_btn"></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<!-- End of Banner Section -->
+
+
+<section id="abouts" class="abouts">
+    <div class="container">
+        <div class="row">
+            <div class="main_abouts_content">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="single_abouts wow fadeInLeft" data-wow-duration="2s">
+                        <h2>ABOUT</h2>
+                        <div class="separetor2"></div>
+                        <p>Stay solid construction is a 100% black youth owned company established this year, out of a solid
+                            need to create sustainable employment and participate to the countrys economic mainstream. Stay
+                            Solid Construction focuses on empowering the previously disadvantaged individuals by giving them
+                            opportunities to acquire experience so they can ultimately reach their full potential. We are
+                            a renowned construction company, specializing primarily on building upgrade, commercial buildings
+                            and governmental structures, both for private and public sector within the borders of South Africa.</p>
+
+                        <button class="btn pink-btn" ng-click="about()">LEARN MORE</button>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="990 wow fadeInRight" data-wow-duration="3s">
+                        <img src="images/MAIN_.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="featured" class="featured">
+    <div class="container">
+        <div class="row">
+            <div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+                <h2>SERVICES</h2>
+                <p>The Services that are provided by Stay Solid Constructions </p>
+                <div class="separetor"></div>
+
+            </div>
+        </div>
+
+        <div class="main_team_content text-center">
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single_team wow fadeIn">
+                    <div class="single_team_img">
+                        <img src="images/f2.jpg" alt="" width="400" height="240" />
+                        <div class="single_team_overlay text-center">
+                            <p>BUILDING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single_team wow fadeIn">
+                    <div class="single_team_img">
+                        <img src="images/civil.jpeg" alt="" width="400" height="240" />
+                        <div class="single_team_overlay text-center">
+                            <p>CIVIL ENGINEERING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                    <div class="single_team_img">
+                        <img src="images/plumbing.jpg" alt="" width="400" height="240" />
+                        <div class="single_team_overlay text-center">
+                            <p>PLUMBING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                    <div class="single_team_img">
+                        <img src="images/electrical.jpeg" alt="" width="400" height="240" />
+                        <div class="single_team_overlay text-center">
+                            <p>ELECTRICAL ENGINEERING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                    <div class="single_team_img">
+                        <img src="images/paving.jpg" alt="" width="400" height="240" />
+                        <div class="single_team_overlay text-center">
+                            <p>PAVING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                    <div class="single_team_img">
+                        <img src="images/painting.jpg" alt="" width="400" height="240" />
+                        <div class="single_team_overlay text-center">
+                            <p>PAINTING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                    <div class="single_team_img">
+                        <img src="images/Roofing.jpg" alt="" width="400" height="240" />
+                        <div class="single_team_overlay text-center">
+                            <p>ROOFING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                    <div class="single_team_img">
+                        <img src="images/Tiling.jpg" alt="" width="400" height="240" />
+                        <div class="single_team_overlay text-center">
+                            <p>TILING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_abouts wow fadeInLeft">
+                <button class="btn pink-btn" ng-click="services()">VIEW MORE</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<div class="clierboth"></div>
+
+
+<div class="gap"></div>
+
+<section id="testimonial" class="testimonial">
+    <div class="testimonial_overlay">
+        <div class="container">
+            <div class="row">
+                <section id="team" class="team">
+
+                    <div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+                        <h2>TEAM</h2>
+                        <div class="separetor"></div>
+                        <p>Stay Solid Construction Management
+                        </p>
+                    </div>
+
+                    <div class="main_team_content text-center">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                                <div class="single_team_img">
+                                    <img src="images/tm1.jpg" alt="" />
+                                    <div class="single_team_overlay text-center">
+                                        <p>CHIEF EXECUTIVE OFFFICER & FOUNDER
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="single_team_name">
+                                    <h4 style="color: white;">MIKE DIKVELI</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                                <div class="single_team_img">
+                                    <img src="images/tm1.jpg" alt="" />
+                                    <div class="single_team_overlay text-center">
+                                        <p>CHIEF OPERATING OFFICER & FOUNDER
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="single_team_name">
+                                    <h4 style="color: white;">FIKILE GLADYS METSING</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                                <div class="single_team_img">
+                                    <img src="images/tm1.jpg" alt="" />
+                                    <div class="single_team_overlay text-center">
+                                        <p>FINANCIAL MANAGER
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="single_team_name">
+                                    <h4 style="color: white;">NKETLE TSHEDISO</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                                <div class="single_team_img">
+                                    <img src="images/tm1.jpg" alt="" />
+                                    <div class="single_team_overlay text-center">
+                                        <p>JUNIOR OPERATIONS MANANGER
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="single_team_name">
+                                    <h4 style="color: white;">NQOBILE DLAMINI</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_team wow fadeIn" data-wow-duration="1.5s">
+                                <div class="single_team_img">
+                                    <img src="images/tm1.jpg" alt="" />
+                                    <div class="single_team_overlay text-center">
+                                        <p>PROJECT AND MARKETING MANAGER
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="single_team_name">
+                                    <h4 style="color: white;">VELAPHI NHLAPO</h4>
+
+                                </div>
+                            </div>
+                            <div class="single_abouts wow fadeInLeft">
+                                <button class="btn pink-btn" ng-click="team()">VIEW MORE</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+            </div>
+
+            </section>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- <section id="blog" class="blog sections">
+                    <div class="container">
+                        <div class="row">
+                            <div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+                                <h2>LATTEST BLOG</h2>
+                                <div class="separetor"></div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry been the industry's standard dummy text</p>
+                            </div>
+                            <div class="main_blog">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="single_blog wow fadeInLeft" data-wow-duration="0.5s">
+                                        <div class="single_blog_img">
+                                            <img src="images/blog1.jpg" alt="" />
+                                        </div>
+                                        
+                                        <div class="single_blog_overlay">
+                                            <h4>THE WINTER TAL’S</h4>
+                                            <p>Raf Redwan</p>
+                                            <div class="separetorwhite"></div>
+                                            
+                                            <p>Lorem ipsum dol. Ut enim minim veniam, qub e eu fugiat anim id est</p>
+                                            <a href="" class="date_data"><i class="fa fa-gift"></i>12 th September, 2015</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="single_blog wow fadeInRight" data-wow-duration="0.5s">
+                                        <div class="single_blog_img">
+                                            <img src="images/blog1.jpg" alt="" />
+                                        </div>
+                                        
+                                        <div class="single_blog_overlay">
+                                            <h4>THE WINTER TAL’S</h4>
+                                            <p>Raf Redwan</p>
+                                            <div class="separetorwhite"></div>
+                                            
+                                            <p>Lorem ipsum dol. Ut enim minim veniam, qub e eu fugiat anim id est</p>
+                                            <a href="" class="date_data"><i class="fa fa-gift"></i>12 th September, 2015</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                 -->
+<!-- <section id="pricing">
+                        <div class="container">
+                            <div class="row">
+                            
+                                <div class="head_title text-center wow slideInDown" data-wow-duration="0.3s">
+                                    <h2>PRICING TABLE</h2>
+                                    <div class="separetor"></div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry been the industry's standard dummy text</p>
+                                </div>
+                                <div class="pricing_content_area choose_pricing_content_area text-center">
+                                
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="choose_single_pricing_text wow fadeIn" data-wow-duration="1s">
+                                            <h3>Casual</h3>
+                                            <div class="choose_pricing_text">
+                                                <p>gret for giving it a try to the one off web designer.</p>
+                                                <p class="price">Free</p>
+                                                <ul>
+                                                    <li>Up to 5 Projects</li>
+                                                    <li>Up to 10 collabrators</li>
+                                                    <li>2gb of storage</li>
+                                                    <li>x</li>
+                                                    <li>x</li>
+                                                    <li>x</li>
+                                                    <li>x</li>
+                                                </ul>
+                                                <a href="" class="btn btn-lg">Start Free Trial</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="choose_single_pricing_text proffetional_price wow fadeIn" data-wow-duration="1.5s">
+                                            <h3>Profesional</h3>
+                                            <div class="choose_pricing_text">
+                                                <p>gret for giving it a try to the one off web designer.</p>
+                                                <p class="price">$24.90<span>/month</span></p>
+                                                <ul>
+                                                    <li>Up to 5 Projects</li>
+                                                    <li>Up to 20 collabrators</li>
+                                                    <li>10gb of storage</li>
+                                                    <li>Real-time collabration</li>
+                                                    <li>x</li>
+                                                    <li>x</li>
+                                                    <li>x</li>
+                                                </ul>
+                                                <a href="" class="btn btn-lg">Start Free Trial</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="choose_single_pricing_text wow fadeIn" data-wow-duration="2s">
+                                            <h3>Expert</h3>
+                                            <div class="choose_pricing_text">
+                                                    
+                                                <p>gret for giving it a try to the one off web designer.</p>
+                                                <p class="price">$49.90<span>/month</span></p>
+                                                
+                                                <ul>
+                                                    <li>Unlimited to 5 Projects</li>
+                                                    <li>Unlimited collabrators</li>
+                                                    <li>Unlimited storage</li>
+                                                    <li>Real-time collabration</li>
+                                                    <li>24x7 Support</li>
+                                                    <li>x</li>
+                                                    <li>x</li>
+                                                </ul>
+                                                
+                                                <a href="" class="btn btn-lg">Start Free Trial</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </section>End of choose Pricing Section -->
+
+<!-- Contact form -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+                    <h2>Contact Us</h2>
+                    <div class="separetor"></div>
+                    <p>We are here to help. Want to learn more about our services? Please get in touch, we'd love to hear from
+                        you!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="messsage_contant">
+                <div class="col-md-7 col-sm-7">
+                    <div class="single_message_left wow fadeIn" data-wow-duration="1s">
+                        <form action="#" id="formid">
+                            <!--<div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">-->
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" placeholder="first name" required="">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="8" placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="center-content">
+                                <input type="submit" value="SUBMIT NOW" class="btn btn-lg">
+                            </div>
+                            <!--</div>-->
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-sm-5">
+                    <div class="single_message_right wow fadeIn" data-wow-duration="1s">
+
+                        <p>
+                            <i class="fa fa-map-marker"></i> 916 POLOKONG
+                            <span>JOHANDEO, SEBOKENG, 1983</span>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope-o"></i>staysolidconstructions@gmail.com</p>
+                        <p>
+                            <i class="fa fa-phone"></i>073 451 9214</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End of messsage contant-->
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="main_footer text-center wow zoomIn" data-wow-duration="1s">
+                <p>Copyright © 2017 Stay Solid Construction (Pty) Ltd. All Rights Reserved &bull; Developed by NJ Solutions</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- STRAT SCROLL TO TOP -->
+
+<div class="scrollup">
+    <a ng-click="scrollTo('home')">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
